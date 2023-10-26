@@ -1,0 +1,26 @@
+
+
+
+What is the command to initialize a new Git repository?
+Answer: The command to initialize a new Git repository is "git init".
+
+How do you add files to the staging area in Git?
+Answer: To add files to the staging area in Git, you can use the command "git add " or "git add ." to add all modified files.
+
+What is the command to commit changes in Git?
+Answer: The command to commit changes in Git is "git commit -m ". The "-m" flag is used to provide a commit message.
+
+How do you create a new branch in Git?
+Answer: To create a new branch in Git, you can use the command "git branch ". This will create a new branch based on the current branch.
+
+What is the command to merge two branches in Git?
+Answer: The command to merge two branches in Git is "git merge ". This will merge the specified branch into the current branch
+
+
+
+
+
+
+
+
+
