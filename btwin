@@ -17,6 +17,22 @@ What is the command to merge two branches in Git?
 Answer: The command to merge two branches in Git is "git merge ". This will merge the specified branch into the current branch
 
 
+Git is one of the most sought after DevOps tools used to handle small and large projects efficiently. The tool enables collaboration among different people in different parts of the same project. Git is nothing without its commands, so here, all about Git commands that are needed to efficiently and effectively work on the tool.
+
+What is Git?
+
+Git is a widely used modern version control system for tracking changes in computer files. The term version control system suggests a system that records all the changes made to a file or set of data, so a specific version can be considered whenever needed. This feature makes the process of collaboration so feasible with all team members, making it considerably more comfortable to work over a big project.  
+
+Git makes it possible for several people involved in the project to work together and track each other's progress over time. In software development, the tool helps in Source Code Management. Git favors not only programmers but also non-technical users by keeping track of their project files.
+
+While working on Git, we actively use two repositories. 
+
+    Local repository: The local repository is present on our computer and consists of all the files and folders. This Repository is used to make changes locally, review history, and commit when offline.
+    Remote repository: The remote repository refers to the server repository that may be present anywhere. This repository is used by all the team members to exchange the changes made.
+
+Both repositories have their own set of commands. There are separate Git Commands that work on different types of repositories. 
+
+
 
 
 
