@@ -1,0 +1,3 @@
+SELECT *
+FROM tableA
+FULL OUTER JOIN tableB ON tableA.key = tableB.key;
