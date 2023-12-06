@@ -1,0 +1,24 @@
+-- Create a new database
+CREATE DATABASE IF NOT EXISTS mydatabase;
+
+-- Use the created database
+USE mydatabase;
+
+-- Create a table named 'users'
+CREATE TABLE IF NOT EXISTS users (
+    user_id INTEGER PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    birthdate DATE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert some sample data
+INSERT INTO users (username, email, birthdate) VALUES
+    ('JohnDoe', 'john@example.com', '1990-01-15'),
+    ('AliceSmith', 'alice@example.com', '1985-05-22'),
+    ('BobJohnson', 'bob@example.com', '1995-08-10');
+
+-- Query the data
+SELECT * FROM users;
+
